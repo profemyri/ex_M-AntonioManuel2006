@@ -12,15 +12,6 @@ document.getElementById("formulario").onsubmit = function EnviarPedido() {
         return false;
     }
 
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-        alert("Por favor, introduce un correo electrónico válido.");
-        return false;
-    }
-
-    if (!/^\d{9}$/.test(telefono)) {
-        alert("El teléfono debe contener exactamente 9 números.");
-        return false;
-    }
 
     if (direccion.length < 18) {
         alert("La dirección debe tener al menos 5 caracteres.");
