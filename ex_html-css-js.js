@@ -1,26 +1,3 @@
-//Validacion del formulario
-document.getElementById("formulario").onsubmit = function EnviarPedido() {
-
-    let nombre = document.getElementById("nombre").value;
-    let email = document.getElementById("email").value;
-    let telefono = document.getElementById("telefono").value;
-    let direccion = document.getElementById("direccion").value;
-
- 
-    if (!/^[a-zA-Z\s]+$/.test(nombre)) {
-        alert("El nombre solo puede contener letras y espacios.");
-        return false;
-    }
-
-
-    if (direccion.length < 18) {
-        alert("La dirección debe tener al menos 5 caracteres.");
-        return false;
-    }
-
-
-
-
 
 
 
