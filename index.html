@@ -11,41 +11,47 @@
     <img src="pescado_frito.jpg" alt="Bandeja pescado frito">
 
     <Form>
-        <label for="">nombre:</label><br>
-        <input type="text" value="" placeholder="Escribe aquí tu nombre"><br>
-        <label for="">Apellidos:</label><br>
-        <input type="text" name="" id="" placeholder="Escribe aqui tus apellidos"><br>
-        <label for="">Correo</label><br>
-        <input type="email" placeholder="Escribe aquí tu correo"><br>
-        <label for="">Dirección</label><br>
-        <input type="text" name="" id="" minlength="18" placeholder="Escribe aquí tu dirección"><br>
-        <label for="">Teléfono</label><br>
-        <input type="tel" name="" id="" placeholder="Escribe aquí tu teléfono"><br>
-        <label for="">Hora de entrega</label><br>
-        <input type="time" name="" id="" form="HH:MM">
+        <div class="datos_personales">
+        <h2>DATOS PERSONALES</h2>
+            <label for="">nombre:</label><br>
+            <input type="text" value="" placeholder="Escribe aquí tu nombre"><br>
+            <label for="">Apellidos:</label><br>
+            <input type="text" name="" id="" placeholder="Escribe aqui tus apellidos"><br>
+            <label for="">Correo</label><br>
+            <input type="email" placeholder="Escribe aquí tu correo"><br>
+            <label for="">Dirección</label><br>
+            <input type="text" name="" id="" minlength="18" placeholder="Escribe aquí tu dirección"><br>
+            <label for="">Teléfono</label><br>
+            <input type="tel" name="" id="" placeholder="Escribe aquí tu teléfono"><br>
+            <label for="">Hora de entrega</label><br>
+            <input type="time" name="" id="" form="HH:MM">
+        </div>
+    <div class="pedido_pescado">  
         <h2>PEDIDO DEL PESCADO</h2>
-
         <label for="">Tipo de pescado</label><br>
         <input type="radio" name="tipo" id="" required>Boquerones<br>
         <input type="radio" name="tipo" id="" required>Calamares<br>
         <input type="radio" name="tipo" id="" required>Chocos<br>
-    <select name="" id="" required>
-        <option value="1">1(numero minimo)</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5(numero maximo)</option>
-    </select><br>
-    <input type="checkbox" name="" id="">Patatas fritas <br>
-    <input type="checkbox" name="" id="">Ensaladilla <br>
-    <input type="checkbox" name="" id="">Botella de manzanilla <br>
-
-    <label for="">Metodo de pago</label><br>
-    <select name="" id="" required>
-        <option value="1">Tarjeta</option>
-        <option value="2">Efectivo</option>
-        <option value="3">Paypal</option>
-    </select>
+        <select name="" id="" required>
+            <option value="1">1(numero minimo)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5(numero maximo)</option>
+        </select><br>
+        <input type="checkbox" name="" id="">Patatas fritas <br>
+        <input type="checkbox" name="" id="">Ensaladilla <br>
+        <input type="checkbox" name="" id="">Botella de manzanilla <br>
+    </div>
+    <div class="metodos_pago">
+        <h2>METODOS DE PAGO</h2>
+        <label for="">Metodo de pago</label><br>
+        <select name="" id="" required>
+            <option value="1">Tarjeta</option>
+            <option value="2">Efectivo</option>
+            <option value="3">Paypal</option>
+        </select>
+    </div>
     <br><br>
     <textarea name="" id="" rows="2" cols="30" placeholder="Comentarios adicionales" maxlength="150"></textarea>
     <br><br>

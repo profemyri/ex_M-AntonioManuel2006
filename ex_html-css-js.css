@@ -14,10 +14,36 @@ h1 {
 
 form {
    background-color: white;
+   margin: 15px;
+   padding: 10px;
 }
 
 h2 {
    font-size: 24px;
    color: #f4a261;
    text-align: center;
+}
+
+img{
+   max-width: 100%;
+   justify-content: center;
+}
+
+.datos_personales{
+   border-radius: 10px;
+   border: 1px solid #b6b3b1;
+   
+   margin: 30px;
+}
+
+.pedido_pescado{
+   border-radius: 10px;
+   border: 1px solid #b6b3b1;
+   margin: 30px;
+}
+
+.metodos_pago{
+   border-radius: 10px;
+   border: 1px solid #b6b3b1;
+   margin: 30px;
 }
